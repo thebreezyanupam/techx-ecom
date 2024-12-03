@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechX - Your Tech Store</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body class="bg-gray-50">
+    <div id="app">
+        <nav class="bg-white shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16 items-center">
+                    <div class="text-xl font-bold text-blue-600">TechX</div>
+                    <div class="flex space-x-4">
+                        <a href="/" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Home</a>
+                        <a href="/products" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Products</a>
+                        <a href="/cart" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Cart <span id="cart-count" class="bg-blue-600 text-white px-2 py-1 rounded-full text-xs">0</span></a>
+                        <a href="/login" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main id="main-content"></main>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
